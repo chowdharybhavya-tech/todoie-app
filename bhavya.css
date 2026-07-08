@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    margin:0;
+    min-height:100vh;
+
+    background:
+        linear-gradient(rgba(20,15,10,0.65), rgba(20,15,10,0.65)),
+        url("https://harry-potter-house-quiz.org/imgs/fly-through-hogwarts/broom-flight.webp");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+h1{
+    color:#d4af37; /* Gold */
+    margin-bottom:20px;
+    font-size:45px;
+}
+
+.todo-card{
+    width:340px;
+    background:#f5ecd7; /* Light parchment */
+    border-radius:15px;
+    padding:20px;
+}
+
+.todo-card h2{
+    color:#5c2c06;
+    margin-bottom:15px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    margin:12px 0;
+    color:#333;
+}
+
+input[type="checkbox"]{
+    accent-color:#7a0019; /* Dark red */
+    margin-right:8px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:20px;
+    background:#7a0019;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#5c0012;
+}
